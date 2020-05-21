@@ -1,0 +1,12 @@
+com\dataaccess\webservicesserver\NumberToWords.class
+com\dataaccess\webservicesserver\ObjectFactory.class
+com\dataaccess\webservicesserver\NumberToDollars.class
+clientservlet\NewWord$1.class
+com\dataaccess\webservicesserver\NumberToWordsResponse.class
+com\dataaccess\webservicesserver\NumberConversionSoapType.class
+com\dataaccess\webservicesserver\package-info.class
+com\mycompany\soapca\JAXRSConfiguration.class
+com\dataaccess\webservicesserver\NumberToDollarsResponse.class
+com\dataaccess\webservicesserver\NumberConversion.class
+clientservlet\NewWord.class
+com\mycompany\soapca\resources\JavaEE8Resource.class

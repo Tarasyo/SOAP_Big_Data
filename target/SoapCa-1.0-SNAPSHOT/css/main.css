@@ -1,0 +1,182 @@
+/* Some of css was taken from my web Design project  as well as normaizer.css and responsive.css*/
+
+
+/***************************************
+GENERAL
+****************************************/
+
+body {
+ font-family: 'Open Sans', sans-serif;
+}
+
+a {
+text-decoration: none;
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+
+a {
+   color: #6ab47b;
+}
+
+img {
+ max-width: 100%;
+}
+
+h3 {
+  
+  font-size: 1.75em;
+  color: black;
+}
+.button {
+  background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.button:hover{
+  background-color:#5cbf2a;
+}
+
+.options{
+  padding-left: 10%;
+  align-items: center;
+}
+
+.super-form{
+  padding-left: 30%;
+  padding-top: 10%;
+}
+.super-form input{
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+
+
+/***************************************
+HEADING
+****************************************/
+
+
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+
+
+/***************************************
+NAVIGATION
+****************************************/
+
+nav {
+ text-align:center;
+ padding: 10px 0;
+ margin: 20px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a { 
+  font-weight: 800;
+  padding: 15px 10px;
+  
+}
+
+
+/***************************************
+FOOTER
+****************************************/
+
+footer {
+ font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+}
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin:0 5px;
+}
+
+
+
+
+/***************************************
+COLORS
+****************************************/
+
+
+
+
+body {
+  background-color: #fff;
+  color: #999;
+}
+
+
+header {
+  background: #6ab47b;
+  border-color: #599a68; 
+}
+
+h1, h2 {
+  color: #fff;
+}
+
+nav {
+background:#599a68;
+}
+
+nav a, nav a:visited {
+color: #fff;
+}
+
+nav a.selected, nav a:hover {
+  color: #3267;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

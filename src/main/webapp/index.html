@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Taras Boreyko</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href='https://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400,400italic,700italic,700,800' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <header>
+       <a href="index.html" id="logo">
+         <h1>Numbers convertor</h1>
+       </a>
+    </header>
+    <div id="wrapper">
+<form name="Test" method="post" action="NewWord" class="super-form">
+    <p> Number to word :</p>
+<p>
+<p><input  name="inputNumber" ID="inputNumber" onkeypress="return onlyNumberKey(event)"></p>
+<p>
+<input class="button" type="submit" value="Submit" name="convert">
+</form>
+        <form name="Test" method="post" action="NewDollar" class="super-form">
+    <p> Number to dollar :</p>
+<p>
+<p><input  name="inputNumber" ID="inputNumber" onkeypress="return onlyNumberKey(event)"></p>
+<p>
+<input class="button" type="submit" value="Submit" name="convert">
+</form>
+</div>
+       <div id="outPut" class="super-form"></div>
+      <footer>
+        <script src="script/index.js"></script> 
+        <script src="script/utilitis.js"></script>
+     
+        
+      </footer>
+  </body>
+  
+  <!--This part of code taking from https://www.geeksforgeeks.org/how-to-force-input-field-to-enter-numbers-only-using-javascript/
+   Used to Force user enter just numbers-->
+ <script> 
+    function onlyNumberKey(evt) { 
+          
+        // Only ASCII charactar in that range allowed 
+        var ASCIICode = (evt.which) ? evt.which : evt.keyCode 
+        if (ASCIICode > 31 && (ASCIICode < 48 || ASCIICode > 57)) 
+            return false; 
+        return true; 
+    } 
+</script> 
+<script> 
+    function detailssubmit() { 
+        alert("Your details were Submitted"); 
+    } 
+</script> 
+</html>
